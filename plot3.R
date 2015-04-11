@@ -16,7 +16,7 @@ with(p,{
   lines(x=Time,y=Sub_metering_2,type="l",col="red") ## add 2nd line to plot
   
   lines(x=Time,y=Sub_metering_3,type="l",col="blue") ## add 3rd line to plot
-  legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1,1),lwd=c(2.5,2.5,2.5,2.5),col=c("black","blue","red"),cex=0.5) 
+  legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1,1),lwd=c(2.5,2.5,2.5,2.5),col=c("black","blue","red"),cex=0.7) 
   }) ## add legend of correct size and position
 dev.copy(png,file="plot3.png",width=480,height=480) ## send to png image file
 dev.off()
